@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <GridView
+	android:layout_weight="1"
+	android:smoothScrollbar="true"
+	android:id="@+id/grid_photo"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:columnWidth="75px"
+	android:horizontalSpacing="2px"
+	android:verticalSpacing="2px"
+	android:numColumns="auto_fit"/>
+    
+    <Button
+    android:id="@+id/btn_camera" 
+    android:text="拍照后识别"
+    android:layout_weight="0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
